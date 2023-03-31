@@ -40,5 +40,9 @@ fill(255,0,51);
 // 6. The next shape you draw will be in the color you selected. 
 //    NOTE: You have to put the fill command with the color you want, 
 //    BEFORE you draw the shap
-ellipse(600,500, 60,650);
-ellipse(600,500, 60,300);
+fill(0,0,0);
+ellipse(600,500, 65,650);
+fill(255,0,0) ;
+
+ellipse(600,500,60,10);
+ellipse(540,480,35,10);
