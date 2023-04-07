@@ -12,7 +12,7 @@
 // 3. Now add an ellipse command to draw a circle. An ellipse is like an oval.
 
 fill(255,90,40);         
- ellipse(600,500,470,700);
+ ellipse(600,500,420,680);
 //    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
@@ -44,5 +44,4 @@ fill(0,0,0);
 ellipse(600,500, 65,650);
 fill(255,0,0) ;
 
-ellipse(600,500,60,10);
-ellipse(540,480,35,10);
+ellipse(600,500,50,5);
