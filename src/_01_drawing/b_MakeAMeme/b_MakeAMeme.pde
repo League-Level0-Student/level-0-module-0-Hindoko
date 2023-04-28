@@ -17,25 +17,27 @@ background(baby);
   
   // 5. Write the message "TESTED MY PROGRAM" at the top of the meme
   //    Use the text() command for this
+textSize(100); 
 text("TESTED MY PROGRAM", 150,390 ); 
   
   // 6. Now make the message bigger so that it fills the width of the sketch
   //    Use the textSize() command for this and put it BEFORE you write the text!
-textSize(800); 
+ 
 }
 
 void draw() {
 
-  // 7. Write the messsage "IT WORKED FIRST TIME" at the bottom of the meme  
-text("IT WORKED FIRST TIME" , 100,100 );
   
+if(mousePressed) {
+text("IT WORKED FIRST TIME" , 100,100 );
+}
   // 8. Change the color of the text. Use the fill() command for this
   //    Put it BEFORE you write the text!
 fill(140,25,50); 
   
   // 9. Change the program so it only shows the punchline when the mouse is pressed
   //    Put this code       if(mousePressed)     before you write the punchline
-if(mousePressed);  
+
   // MAKE SURE YOU SAVE YOUR CODE! 
 
 }
